@@ -1,0 +1,148 @@
+
+body,
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #0A192F;
+}
+
+#navbar {
+    background-color: #333;
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar #name {
+    color: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+#navbar #links ul {
+    font-family: "Raleway", sans-serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    float: right;
+    height: 100%;
+}
+
+#navbar #links li {
+    height: 100%;
+}
+
+#navbar #links a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar #links a:hover {
+    opacity: 75%;
+}
+
+#preview {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 25px;
+    height: 450px;
+    width: auto;
+}
+
+#preview:hover {
+    height: 455px;
+    width: auto;
+    transition: 0.4s ease-in;
+}
+
+#preview:not(:hover){
+    height: 450px;
+    width: auto;
+    transition: 0.4s ease-out;
+}
+
+#tagline {
+    height: 40px;
+    width: auto;
+    color: white;
+    float: right;
+    margin-top: 260px;
+    margin-right: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+#details {
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+#stats-container {
+    height: 200px;
+    width: 400px;
+    background-color: #027179;
+    color: aliceblue;
+    margin-left: 20px;
+    float: left;
+    margin-right: auto;
+    border-radius: 30px;
+    padding-top: 80px;
+}
+
+#stats {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: auto;
+}
+
+#cta-container {
+    height: 200px;
+    width: 400px;
+    background-color: #0b5358;
+    color: aliceblue;
+    margin-left: 20px;
+    float: right;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cta {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1582f7;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #035dbd;
+}

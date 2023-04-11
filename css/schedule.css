@@ -1,11 +1,10 @@
-
 body,
 html {
     margin: 0;
 }
 
 body {
-    background-color: #363636;
+    background-color: #0A192F;
 }
 
 h1 {
@@ -14,13 +13,16 @@ h1 {
     text-align: center;
 }
 
+#schedule-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 #schedule-day-o {
-    float: left;
     margin-left: 50px;
 }
 
 #schedule-day-t {
-    float: right;
     margin-right: 50px;
 }
 

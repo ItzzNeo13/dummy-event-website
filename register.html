@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway&display=swap" rel="stylesheet">
+    <title>Global Tech Conference 2023</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
+  </head>
+  <body>
+    <h1 id="title"> Register Now!</h1>
+    <p id="txt">Enter your details below to register for a email<br>
+    Make sure to use an active email as it will be used for verification purposes.</p>
+    <div id="form-container">
+    <form id="details-form">
+        <span>Name: <input type="text" placeholder="Name"></span><br>
+        <span>Email: <input type="email" placeholder="yourcompany@email.com"></span><br>
+        <span>Age: <input type="number" placeholder="24"></span><br>
+        <span>Area of Interest: <select>
+                <option value="option1">Cyber Security</option>
+                <option value="option2">Digital Transformation</option>
+                <option value="option3">Tech Ethics</option>
+                <option value="option4">Industry-specific topics</option>
+        </select></span><br>
+    </form>
+    <button id="submit-button" type="submit" onclick="submitForm()">Submit!</button>
+    </div>
+    <br>
+    <div id="home"><a href="./index.html">Return to Homepage</a></div>
+    <br>
+    <br>
+  </body>
+    <script>
+        function submitForm() {
+          // show alert
+          alert("Form submitted. \n Check your inbox for conformation mail from our side!");
+        
+          // refresh page
+          location.reload();
+        }
+        </script>
+</html>
